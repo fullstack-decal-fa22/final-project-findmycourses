@@ -1,0 +1,30 @@
+.container {
+    display: block;
+}
+.form {
+    display:flex;
+    justify-content: center;
+}
+
+.course {
+    width : 75%;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border : none;
+    width : 75%;
+    padding:0.35em 1.2em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    text-align:center;
+    transition: all 0.2s;
+    
+}
+.btn:hover {
+    background-color: #FDB515;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24)
+}

@@ -1,0 +1,32 @@
+.r {
+    display: flex; 
+    flex-direction: 'row';
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.c {
+    display: flex; 
+    flex-direction: 'column';
+    align-items: center;
+    justify-content: center;
+    flex-basis: 100%; 
+    margin: 20px; 
+    flex: 1; 
+}
+
+.schedule {
+    display: flexbox;
+    background-color: #003362bf ;
+    border-radius: 2%;
+    padding: 2%; 
+    min-height: min-content;
+    max-height: max-content; 
+    flex-direction: column;
+}
+
+.abs {
+    display: flexbox; 
+    position: static; 
+    top: 0; 
+}

@@ -1,0 +1,53 @@
+
+h4 {
+    font-size: 15px; 
+}
+
+.btnPos {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+    min-height: min-content;
+}
+
+.btnStyle {
+    margin-left : 2%; 
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border : none;
+}
+
+.btnStyle:hover {
+    background-color: #FDB515;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24); 
+}
+
+.container {
+    display: flex;
+    position: relative; 
+    width: 90%; 
+    height: auto; 
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #98acbe;
+    min-height: min-content;
+    align-items: center;
+}
+
+.courseInfo {
+    position: relative; 
+    margin-top: 2%;
+    margin-left: 2%;
+    min-height: min-content;
+}
+
+.container:hover {
+    background-color: #FDB515;
+}
+
+
